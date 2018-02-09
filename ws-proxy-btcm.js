@@ -20,7 +20,8 @@ console.log("Please connect to ws://" + HOST + ":" + PORT);
 
 wsServer.on('connect', (clientConnection) => {
 
-  console.log('Python connected to proxy');
+  console.log('Client connected to proxy');
+  
   clientConnection.send(JSON.stringify({"status": "connected"}));
 
     clientConnection.on('message', (message) => {
