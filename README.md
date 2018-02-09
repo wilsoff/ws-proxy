@@ -35,5 +35,5 @@ More information on channel and event names can be found at https://github.com/B
 # Customizing
 
 ```
-HOST=127.0.0.1 PORT=7777 SOCKETIO_SOURCE=ws://example.com/ws
+HOST=127.0.0.1 PORT=7777 SOCKETIO_SOURCE=https://socket.example.com
 ```
