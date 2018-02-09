@@ -15,6 +15,9 @@ const wsServer = new WebSocketServer({
   autoAcceptConnections: true,
 })
 
+console.log("\nWebsocket proxy server started...");
+console.log("Listening on port " + PORT + "...");
+
 wsServer.on('connect', (clientConnection) => {
 
   console.log('Python connected to proxy');
