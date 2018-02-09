@@ -15,8 +15,8 @@ const wsServer = new WebSocketServer({
   autoAcceptConnections: true,
 })
 
-console.log("\nWebsocket proxy server started...");
-console.log("Listening on port " + PORT + "...");
+console.log("\nWebsocket proxy server started");
+console.log("Please connect to ws://" + HOST + ":" + PORT);
 
 wsServer.on('connect', (clientConnection) => {
 
