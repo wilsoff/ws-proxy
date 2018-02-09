@@ -40,5 +40,4 @@ HOST=127.0.0.1 PORT=7777 SOCKETIO_SOURCE=https://socket.example.com
 
 ## Sources / Credits: 
 - https://github.com/alun/ws-proxy
-- https://github.com/websockets/ws
 - https://github.com/BTCMarkets/API/wiki/websocket
