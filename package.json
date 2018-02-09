@@ -1,5 +1,5 @@
 {
-  "name": "ws-proxy",
+  "name": "ws-proxy-btcm",
   "version": "1.0.0",
   "description": "Trivial local proxy for websockets to overcome CORS limitations",
   "main": "ws-proxy-btcm.js",
