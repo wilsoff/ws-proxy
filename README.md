@@ -5,7 +5,9 @@ NodeJS, NPM
 
 # Building - One Time Only
 
-Build the node modules using npm, where the path is the path to `ws-proxy-btcm.js`, but do not include a filename in the command.
+Build the node modules using npm, where `[path]` is the path to `ws-proxy-btcm.js`.
+
+Do not include a filename in the command.
 ```
 npm i --prefix /[path]/
 ```
