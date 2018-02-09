@@ -22,9 +22,11 @@ node /[path]/ws-proxy-btcm.js
 
 # Connecting - Starting Client
 
-Example python client `sample-client.py`
+See example python client `sample-client.py`
 
-Information on channel and event names can be found at https://github.com/BTCMarkets/API/wiki/websocket
+See sample responses `sample-responses.md`
+
+More information on channel and event names can be found at https://github.com/BTCMarkets/API/wiki/websocket
 
 
 
