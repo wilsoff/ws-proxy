@@ -2,6 +2,10 @@
 
 NodeJS, NPM
 
+You may need to install the socket.io module as follows.
+```
+npm install socket.io --save
+```
 
 ## Building - One Time Only
 
